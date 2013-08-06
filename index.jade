@@ -1,0 +1,11 @@
+!!!
+html
+  head
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    script(src='http://api.filepicker.io/v1/filepicker.js')
+    script(src='index.js')
+  body
+    h1 Click the button to upload a file
+    button#upload Upload
+    p#progress
+    input#file(type='file', accept='image/jpeg', style='display:none;')

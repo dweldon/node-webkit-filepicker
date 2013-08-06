@@ -1,0 +1,13 @@
+{
+  "name": "node-webkit-filepicker",
+  "main": "index.html",
+  "version": "0.0.1",
+  "window": {
+    "toolbar": true,
+    "frame": true,
+    "resizable": false,
+    "position": "center",
+    "width": 600,
+    "height": 700
+  }
+}
